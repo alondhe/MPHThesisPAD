@@ -1,0 +1,24 @@
+Package: MPHThesisPAD
+Type: Package
+Title: Comparative Effectiveness of Endovascular and Pharmacologic Treatment Pathways 
+       in Non-Diabetic Peripheral Arterial Disease Patients Using Administrative Claims Data 
+Version: 1.0.0
+Author: Ajit Londhe
+Maintainer: Ajit Londhe <ajit.a.londhe@emory.edu>
+Description: Runs the PAD comparative effectiveness study
+License: Apache License, Version 2.0
+LazyData: TRUE
+Depends:
+    SqlRender,
+    DatabaseConnector,
+    CohortMethod,
+    EmpiricalCalibration,
+    httr,
+    jsonlite,
+    stringr,
+    parallel,
+    openxlsx,
+    ggplot2,
+    plyr
+Roxygen: list(wrap = TRUE)
+RoxygenNote: 6.0.1
